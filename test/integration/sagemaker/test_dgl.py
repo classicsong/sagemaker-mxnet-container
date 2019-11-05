@@ -25,7 +25,7 @@ from timeout import timeout
 DGL_DATA_PATH = os.path.join(RESOURCE_PATH, 'dgl-gcn')
 DGL_SCRIPT_PATH = os.path.join(DGL_DATA_PATH, 'gcn.py')
 
-@pytest.mark.skipif(sys.version_info[0] < 3, reason="DGL requires python3 or above")
+#@pytest.mark.skipif(sys.version_info[0] < 3, reason="DGL requires python3 or above")
 def test_dgl_training(sagemaker_session, ecr_image, instance_type, instance_count):
 
     dgl = MXNet(entry_point=DGL_SCRIPT_PATH,
