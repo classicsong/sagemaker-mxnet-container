@@ -22,7 +22,7 @@ from sagemaker.mxnet.estimator import MXNet
 from test.integration import RESOURCE_PATH
 from timeout import timeout
 
-DGL_DATA_PATH = os.path.join(RESOURCE_PATH, 'dgl-gcn')
+DGL_DATA_PATH = os.path.join(RESOURCE_PATH, 'dgl_gcn')
 DGL_SCRIPT_PATH = os.path.join(DGL_DATA_PATH, 'gcn.py')
 
 #@pytest.mark.skipif(sys.version_info[0] < 3, reason="DGL requires python3 or above")
