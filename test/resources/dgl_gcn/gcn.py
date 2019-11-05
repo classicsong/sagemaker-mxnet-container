@@ -15,7 +15,6 @@ import collections
 
 import mxnet as mx
 from mxnet import gluon
-import dgl
 from dgl import DGLGraph
 from dgl.nn.mxnet import GraphConv
 from dgl.data import register_data_args, load_data
