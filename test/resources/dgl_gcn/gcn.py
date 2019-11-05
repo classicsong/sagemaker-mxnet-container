@@ -12,6 +12,7 @@ from mxnet import gluon
 import dgl
 from dgl.nn.mxnet import GraphConv
 
+import os
 import time
 import numpy as np
 from mxnet import gluon
